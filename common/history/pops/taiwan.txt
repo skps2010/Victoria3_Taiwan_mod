@@ -1,0 +1,26 @@
+﻿POPS = {
+	s:STATE_FORMOSA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = min
+				size = 1748362
+			}
+			create_pop = {
+				culture = manchu
+				size = 492
+			}
+			create_pop = {
+				culture = han # 南方人
+				size = 579472
+			}
+			create_pop = {
+				culture = hakka
+				size = 290145
+			}
+			create_pop = {
+				culture = micronesian
+				size = 289837
+			}
+		}
+	}
+}
