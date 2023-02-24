@@ -1,0 +1,19 @@
+﻿l_simp_chinese:
+
+# Countries
+dyn_c_tong_ling:0 "東寧"
+dyn_c_tiong_hua_bin_kok:0 "中華民國"
+dyn_c_tai_uan_kiong_ho_kok:0 "臺灣共和國"
+dyn_c_tai_uan_bin_tsu_kok:0 "臺灣民主國"
+dyn_c_tai_uan_ling_bin_kiong_ho_kok:0 "臺灣人民共和國"
+
+# Decisions
+taiwan_claim_china:0 "成為正統中國"
+taiwan_claim_china_desc:0 "我們是中國的唯一合法政府，我們擁有整個中國的宣稱！"
+
+# Events
+claim_china.1.t:0 "取得整個中國宣稱"
+claim_china.1.d:0 "中國被非法政權佔據了，我們必須奪回我們的故土！"
+claim_china.1.f:0 "現今的中國政權已無法代表其人民。我們成立了新政府來準備取而代之"
+claim_china.1.a:0 "宣稱整個[SCOPE.sCountry('china_scope').GetName]並變成中國（形式上）"
+claim_china.1.c:0 "下次再說"

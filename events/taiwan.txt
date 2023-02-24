@@ -1,0 +1,55 @@
+﻿namespace = claim_china
+
+# Claim China
+claim_china.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = claim_china.1.t
+	desc = claim_china.1.d
+	flavor = claim_china.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		c:CHI = {
+			save_scope_as = china_scope
+		}
+	}
+
+	option = { # claim China
+		name = claim_china.1.a
+		ai_chance = {
+			base = 1
+		}
+		c:CHI = {
+			every_scope_state = {
+				state_region = {
+					add_claim = ROOT 
+				}
+			}
+		}
+		add_primary_culture = cu:han
+		remove_primary_culture = cu:min
+	}
+	option = { # perhaps another time
+		name = claim_china.1.c
+		default_option = yes
+		ai_chance = {
+			base = 0
+		}
+		remove_variable = claim_china_var
+	}
+}

@@ -1,0 +1,5 @@
+﻿STATES = {
+	s:STATE_FORMOSA = {
+		add_homeland = micronesian
+	}
+}

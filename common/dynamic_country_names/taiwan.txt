@@ -1,0 +1,53 @@
+﻿FRS = { # Taiwan
+	dynamic_country_name = {
+		name = dyn_c_tiong_hua_bin_kok
+		
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			scope:actor = {
+				country_has_primary_culture = cu:han
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_tong_ling
+		
+		is_main_tag_only = yes
+		priority = 4
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_tai_uan_kiong_ho_kok
+		
+		is_main_tag_only = yes
+		priority = 3
+		
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			scope:actor = {
+				has_law = law_type:law_multicultural
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_tai_uan_bin_tsu_kok
+		
+		is_main_tag_only = yes
+		priority = 2
+	}
+	dynamic_country_name = {
+		name = dyn_c_tai_uan_ling_bin_kiong_ho_kok
+		
+		is_main_tag_only = yes
+		priority = 1500
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}

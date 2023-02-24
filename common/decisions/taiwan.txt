@@ -1,0 +1,29 @@
+﻿taiwan_claim_china = {
+	is_shown = {
+		exists = c:FRS
+		c:FRS = ROOT
+		NOT = {
+			has_variable = claim_china_var
+		}
+	}
+
+	possible = {
+		exists = c:CHI
+	}
+
+	when_taken = {
+		set_variable = {
+			name = claim_china_var
+			value = yes
+		}
+		trigger_event = {
+			id = claim_china.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
