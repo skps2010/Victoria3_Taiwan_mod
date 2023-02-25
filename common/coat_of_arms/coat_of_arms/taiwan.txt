@@ -20,6 +20,21 @@
 	}
 }
 
+FRS_bing = { # 明
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_ming.dds"
+		color1 = "black"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}
+}
+
 FRS_monarchy = { # 東寧
 	pattern = "pattern_solid.tga"
 	color1 = "white"

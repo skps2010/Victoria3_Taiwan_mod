@@ -1,14 +1,17 @@
-﻿taiwan_claim_china = {
+﻿han_claim_china = {
 	is_shown = {
-		exists = c:FRS
-		c:FRS = ROOT
+		any_primary_culture = { has_discrimination_trait = han_chinese }
 		NOT = {
+			ROOT = c:CHI
 			has_variable = claim_china_var
 		}
 	}
 
 	possible = {
 		exists = c:CHI
+		NOT = {
+			is_subject_of = c:CHI
+		}
 	}
 
 	when_taken = {
@@ -24,6 +27,50 @@
 	}
 
 	ai_chance = {
-		base = 10
+		base = 0
+		modifier = {
+			has_strategy = ai_strategy_territorial_expansion
+			add = 10
+		}
+	}
+}
+
+taiwan_unclaim_china = {
+	is_shown = {
+		exists = c:FRS
+		c:FRS = ROOT
+		NOT = {
+			has_variable = unclaim_china_var
+		}
+	}
+
+	possible = {
+		any_state = {
+			has_claim_by = root
+			OR = {
+				region = sr:region_north_china
+				region = sr:region_south_china
+				region = sr:region_manchuria
+			}
+			NOT = {
+				owner = root
+			}
+		}
+	}
+
+	when_taken = {
+		set_variable = {
+			name = unclaim_china_var
+			value = yes
+		}
+		trigger_event = {
+			id = claim_china.2
+			days = 0
+			popup = yes
+		}
+	}
+
+	ai_chance = {
+		base = 0
 	}
 }

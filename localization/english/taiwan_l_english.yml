@@ -1,16 +1,18 @@
 ﻿l_english:
 
 # Countries
-dyn_c_tong_ling:0 "Tong Ling"
+dyn_c_bing:0 "Great Ming"
+dyn_c_tang_ling:0 "Tang Ling"
 dyn_c_tiong_hua_bin_kok:0 "Republic of China"
 dyn_c_tai_uan_kiong_ho_kok:0 "Republic of Taiwan"
 dyn_c_tai_uan_bin_tsu_kok:0 "Republic of Formosa"
 dyn_c_tai_uan_ling_bin_kiong_ho_kok:0 "People's Republic of Taiwan"
 
-
 # Decisions
-taiwan_claim_china:0 "Become the True Leader of China"
-taiwan_claim_china_desc:0 "We are the only legitimate government of China, we have the claim of it!"
+han_claim_china:0 "Become the True Leader of China"
+han_claim_china_desc:0 "We are the only legitimate government of China, we have the claim of it!"
+taiwan_unclaim_china:0 "Stop Claiming China"
+taiwan_unclaim_china_desc:0 "Chinese future should be decided by Chinese, It's not our business anymore"
 
 # Events
 claim_china.1.t:0 "Get Claim of China"
@@ -18,3 +20,8 @@ claim_china.1.d:0 "China is occupid by illegal government, we need to take our h
 claim_china.1.f:0 "The current goverment of China can't represent it's people anymore. we contruct a new government to prepare to replace it"
 claim_china.1.a:0 "Claim the whole [SCOPE.sCountry('china_scope').GetName] and become China (kind of)."
 claim_china.1.c:0 "Maybe next time."
+claim_china.2.t:0 "Remove Claim of China"
+claim_china.2.d:0 "We should stop claiming China and focus on our real home"
+claim_china.2.f:0 "Local people think that taking back China is too unrealistic and unnecessary, we should give up the dream and focus on our real home"
+claim_china.2.a:0 "Unclaim the whole [SCOPE.sCountry('china_scope').GetName] and become Taiwan."
+claim_china.2.c:0 "Maybe next time."

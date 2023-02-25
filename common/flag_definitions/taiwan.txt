@@ -1,7 +1,29 @@
 ﻿FRS = { # FORMOSA
 	flag_definition = {
+		coa = FRS_republic_modern
+		priority = 1504
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			NOT = { coa_def_communist_flag_trigger = yes }
+			scope:actor = {
+				has_law = law_type:law_multicultural
+				country_has_primary_culture = cu:min
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRS_bing
+		priority = 1503
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				country_has_primary_culture = cu:han
+			}
+		}
+	}
+	flag_definition = {
 		coa = FRS_china
-		priority = 5
+		priority = 1502
 		trigger = { 
 			scope:actor = {
 				country_has_primary_culture = cu:han
@@ -10,30 +32,20 @@
 	}
 	flag_definition = {
 		coa = FRS_monarchy
-		priority = 4
+		priority = 1501
 		trigger = { 
 			coa_def_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = FRS_republic_modern
-		priority = 3
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-			scope:actor = {
-				has_law = law_type:law_multicultural
-			}
-		}
-	}
-	flag_definition = {
 		coa = FRS_communist
-		priority = 1500
+		priority = 1501
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = FRS
-		priority = 1
+		priority = 1500
 	}
 }

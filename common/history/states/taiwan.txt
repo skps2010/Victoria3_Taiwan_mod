@@ -1,5 +1,6 @@
 ﻿STATES = {
 	s:STATE_FORMOSA = {
 		add_homeland = micronesian
+		add_homeland = hakka
 	}
 }
