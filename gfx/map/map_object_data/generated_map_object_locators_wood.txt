@@ -1,14 +1,14 @@
 ﻿game_object_locator={
-	name="port"
-	clamp_to_water_level=yes
+	name="wood"
+	clamp_to_water_level=no
 	render_under_water=no
 	generated_content=no
 	layer="locators"
 	instances={
 		{
 			id=510
-			position={ 6836.448730 0.000000 2043.592041 }
-			rotation={ -0.000000 -0.571706 -0.000000 0.820459 }
+			position={ 6840.074707 0.000000 2056.493652 }
+			rotation={ -0.000000 -0.672194 -0.000000 0.740375 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 	}
