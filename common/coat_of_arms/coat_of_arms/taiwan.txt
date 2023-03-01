@@ -54,7 +54,7 @@ FRS_monarchy = { # 東寧
 
 FRS = { # 台灣民主國
 	pattern = "pattern_solid.tga"
-	color1 = rgb { 0.2 0.32 0.48 }
+	color1 = { 30 65 107 }
 
 	textured_emblem = {
 		texture = "te_taiwan_republic_1895.png"
