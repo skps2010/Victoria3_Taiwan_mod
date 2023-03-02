@@ -719,7 +719,7 @@
 			}
 			create_pop = {
 				culture = han # 南方人
-				size = 569472
+				size = 499472
 			}
 			create_pop = {
 				culture = hakka

@@ -1,0 +1,7 @@
+state_trait_head_hunting = {
+    icon = "gfx/interface/icons/state_trait_icons/head_hunting.png"
+	
+	modifier = {
+		state_colony_growth_speed_mult = -0.9
+	}
+}
