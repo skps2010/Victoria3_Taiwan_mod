@@ -711,7 +711,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = min
-				size = 1748362
+				size = 1708362
 			}
 			create_pop = {
 				culture = manchu
@@ -719,29 +719,33 @@
 			}
 			create_pop = {
 				culture = han # 南方人
-				size = 579472
+				size = 569472
 			}
 			create_pop = {
 				culture = hakka
-				size = 290145
+				size = 280145
 			}
 			create_pop = {
 				culture = micronesian
-				size = 289837
+				size = 239837
 			}
 		}
 		region_state:FRI = {
 			create_pop = {
+				culture = han # 南方人
+				size = 11462
+			}
+			create_pop = {
 				culture = min
-				size = 2483
+				size = 42483
 			}
 			create_pop = {
 				culture = hakka
-				size = 701
+				size = 10701
 			}
 			create_pop = {
 				culture = micronesian
-				size = 69837
+				size = 129837
 			}
 		}
 	}

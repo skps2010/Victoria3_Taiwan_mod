@@ -7,14 +7,16 @@ dyn_c_tiong_hua_bin_kok:0 "Republic of China"
 dyn_c_tai_uan_kiong_ho_kok:0 "Republic of Taiwan"
 dyn_c_tai_uan_bin_tsu_kok:0 "Republic of Formosa"
 dyn_c_tai_uan_ling_bin_kiong_ho_kok:0 "People's Republic of Taiwan"
-FRI:0 "Formosan indigenous peoples"
-FRI:0 "Formosan indigenous peoples'"
+FRI:0 "Formosan Indigenes"
+FRI_ADJ:0 "Formosan Indigenes'"
 
 # Decisions
 han_claim_china:0 "Become the True Leader of China"
 han_claim_china_desc:0 "We are the only legitimate government of China, we have the claim of it!"
 taiwan_unclaim_china:0 "Stop Claiming China"
 taiwan_unclaim_china_desc:0 "Chinese future should be decided by Chinese, It's not our business anymore"
+taiwan_claim_taiwan:0 "Claim indigenous peoples' land"
+taiwan_claim_taiwan_desc:0 "We need to fully utilize the land in Formosa, even if we need to still them from indigenous peoples"
 
 # Events
 claim_china.1.t:0 "Get Claim of China"

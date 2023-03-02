@@ -74,3 +74,33 @@ taiwan_unclaim_china = {
 		base = 0
 	}
 }
+
+taiwan_claim_taiwan = {
+	is_shown = {
+		exists = c:FRS
+		c:FRS = ROOT
+		s:STATE_FORMOSA = {
+			any_scope_state = {
+				owner = {
+					is_country_type = decentralized
+				}
+			}
+		}
+		NOT = {
+			has_claim = s:STATE_FORMOSA
+		}
+	}
+
+	possible = {
+	}
+
+	when_taken = {
+		s:STATE_FORMOSA = {
+			add_claim = ROOT
+		}
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
