@@ -1,6 +1,14 @@
 ﻿STATES = {
 	s:STATE_FORMOSA = {
+		create_state = {
+			country = c:FRI
+			owned_provinces = {
+				xBB27F6 x44797F x9A5066
+			}
+		}
 		add_homeland = micronesian
 		add_homeland = hakka
+
+		add_claim = c:CHI
 	}
 }

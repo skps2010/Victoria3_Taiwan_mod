@@ -49,3 +49,10 @@
 		priority = 1500
 	}
 }
+
+FRI = { # Formosan indigenous peoples
+	flag_definition = {
+		coa = FRI
+		priority = 1
+	}
+}

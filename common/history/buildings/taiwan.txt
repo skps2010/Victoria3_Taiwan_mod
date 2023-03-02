@@ -44,5 +44,7 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
+		region_state:FRI={
+		}
 	}
 }

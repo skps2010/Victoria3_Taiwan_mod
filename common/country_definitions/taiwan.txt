@@ -11,3 +11,15 @@
 	capital = STATE_FORMOSA
 	is_named_from_capital = yes
 }
+FRI = { # Formosa indigenous peoples
+	color = { 18 163 45 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { micronesian }
+	
+	capital = STATE_FORMOSA
+	is_named_from_capital = yes
+}

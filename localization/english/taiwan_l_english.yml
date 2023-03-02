@@ -7,6 +7,8 @@ dyn_c_tiong_hua_bin_kok:0 "Republic of China"
 dyn_c_tai_uan_kiong_ho_kok:0 "Republic of Taiwan"
 dyn_c_tai_uan_bin_tsu_kok:0 "Republic of Formosa"
 dyn_c_tai_uan_ling_bin_kiong_ho_kok:0 "People's Republic of Taiwan"
+FRI:0 "Formosan indigenous peoples"
+FRI:0 "Formosan indigenous peoples'"
 
 # Decisions
 han_claim_china:0 "Become the True Leader of China"
