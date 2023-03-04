@@ -8,7 +8,5 @@
 		}
 		add_homeland = micronesian
 		add_homeland = hakka
-
-		add_claim = c:CHI
 	}
 }

@@ -28,7 +28,7 @@
 	}
 
 	ai_chance = {
-		base = 10
+		base = 100
 	}
 }
 
@@ -73,18 +73,20 @@ taiwan_unclaim_china = {
 	}
 }
 
-taiwan_claim_taiwan = {
+claim_taiwan_native = {
 	is_shown = {
-		exists = c:FRS
-		c:FRS = ROOT
 		s:STATE_FORMOSA = {
 			any_scope_state = {
 				owner = {
 					is_country_type = decentralized
 				}
 			}
+			any_scope_state = {
+				owner = ROOT
+			}
 		}
-		NOT = {
+		NOR = {
+			is_country_type = decentralized
 			has_claim = s:STATE_FORMOSA
 		}
 	}
@@ -99,6 +101,6 @@ taiwan_claim_taiwan = {
 	}
 
 	ai_chance = {
-		base = 10
+		base = 100
 	}
 }
