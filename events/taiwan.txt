@@ -34,18 +34,6 @@ claim_china.1 = {
 		ai_chance = {
 			base = 1
 		}
-		every_state_region = {
-			limit = {
-				OR = {
-					region = sr:region_north_china
-					region = sr:region_south_china
-					region = sr:region_manchuria
-				}
-			}
-			this = {
-				add_claim = ROOT 
-			}
-		}
 		add_primary_culture = cu:han
 		every_primary_culture = { 
 			limit = {
@@ -54,6 +42,25 @@ claim_china.1 = {
 			}
 			ROOT = {
 				remove_primary_culture = PREV
+			}
+		}
+		change_relations = { 
+			country = c:CHI
+			value = -30 
+		}
+		every_state_region = {
+			limit = {
+				OR = {
+					region = sr:region_north_china
+					region = sr:region_south_china
+					region = sr:region_manchuria
+				}
+				NOT = {
+					this = s:STATE_FORMOSA
+				}
+			}
+			this = {
+				add_claim = ROOT 
 			}
 		}
 	}
@@ -101,6 +108,10 @@ claim_china.2 = {
 		ai_chance = {
 			base = 0
 		}
+		add_primary_culture = cu:min
+		remove_primary_culture = cu:han
+		remove_variable = claim_china_var
+		remove_variable = unclaim_china_var
 		every_state_region = {
 			limit = {
 				OR = {
@@ -108,15 +119,14 @@ claim_china.2 = {
 					region = sr:region_south_china
 					region = sr:region_manchuria
 				}
+				NOT = {
+					this = s:STATE_FORMOSA
+				}
 			}
 			this = {
 				remove_claim = ROOT 
 			}
 		}
-		add_primary_culture = cu:min
-		remove_primary_culture = cu:han
-		remove_variable = claim_china_var
-		remove_variable = unclaim_china_var
 	}
 	option = { # perhaps another time
 		name = claim_china.2.c

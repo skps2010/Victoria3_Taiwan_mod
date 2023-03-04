@@ -12,6 +12,7 @@
 		NOT = {
 			is_subject_of = c:CHI
 		}
+		c:CHI = { relations:root <= relations_threshold:poor }	
 	}
 
 	when_taken = {
@@ -27,11 +28,7 @@
 	}
 
 	ai_chance = {
-		base = 0
-		modifier = {
-			has_strategy = ai_strategy_territorial_expansion
-			add = 10
-		}
+		base = 10
 	}
 }
 
@@ -52,8 +49,9 @@ taiwan_unclaim_china = {
 				region = sr:region_south_china
 				region = sr:region_manchuria
 			}
-			NOT = {
+			NOR = {
 				owner = root
+				state_region = s:STATE_FORMOSA
 			}
 		}
 	}
