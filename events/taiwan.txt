@@ -35,31 +35,48 @@ claim_china.1 = {
 			base = 1
 		}
 		add_primary_culture = cu:han
-		every_primary_culture = { 
-			limit = {
-				has_discrimination_trait = han_chinese 
-				NOT = { this = cu:han }
-			}
-			ROOT = {
-				remove_primary_culture = PREV
-			}
+		IF = {
+			limit = { country_has_primary_culture = cu:hakka }
+			set_variable = had_primary_hakka
+			remove_primary_culture = cu:hakka
+		}
+		IF = {
+			limit = { country_has_primary_culture = cu:min }
+			set_variable = had_primary_min
+			remove_primary_culture = cu:min
+		}
+		IF = {
+			limit = { country_has_primary_culture = cu:yue }
+			set_variable = had_primary_yue
+			remove_primary_culture = cu:yue
 		}
 		change_relations = { 
 			country = c:CHI
 			value = -30 
 		}
-		every_state_region = {
+		every_state = {
 			limit = {
 				OR = {
 					region = sr:region_north_china
 					region = sr:region_south_china
 					region = sr:region_manchuria
 				}
-				NOT = {
-					this = s:STATE_FORMOSA
-				}
+				owner = ROOT
 			}
-			this = {
+			state_region = {
+				add_claim = c:CHI
+			}
+		}
+		every_state = {
+			limit = {
+				OR = {
+					region = sr:region_north_china
+					region = sr:region_south_china
+					region = sr:region_manchuria
+				}
+				owner = c:CHI
+			}
+			state_region = {
 				add_claim = ROOT 
 			}
 		}
@@ -108,7 +125,21 @@ claim_china.2 = {
 		ai_chance = {
 			base = 0
 		}
-		add_primary_culture = cu:min
+		IF = {
+			limit = { has_variable = had_primary_hakka }
+			add_primary_culture = cu:hakka
+			remove_variable = had_primary_hakka
+		}
+		IF = {
+			limit = { has_variable = had_primary_min }
+			add_primary_culture = cu:min
+			remove_variable = had_primary_min
+		}
+		IF = {
+			limit = { has_variable = had_primary_yue }
+			add_primary_culture = cu:yue
+			remove_variable = had_primary_yue
+		}
 		remove_primary_culture = cu:han
 		remove_variable = claim_china_var
 		remove_variable = unclaim_china_var

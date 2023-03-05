@@ -13,8 +13,8 @@ FRI_ADJ:0 "Formosan Indigenes"
 # Decisions
 han_claim_china:0 "Become the True Leader of China"
 han_claim_china_desc:0 "We are the only legitimate government of China, we have the claim of it!"
-taiwan_unclaim_china:0 "Stop Claiming China"
-taiwan_unclaim_china_desc:0 "Chinese future should be decided by Chinese, It's not our business anymore"
+han_unclaim_china:0 "Stop Claiming China"
+han_unclaim_china_desc:0 "Chinese future should be decided by Chinese, It's not our business anymore"
 claim_taiwan_native:0 "Open mountain and pacify natives"
 claim_taiwan_native_desc:0 "We need to fully utilize the land in Formosa, even if we need to steal them from indigenous peoples"
 

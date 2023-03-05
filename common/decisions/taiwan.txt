@@ -16,10 +16,7 @@
 	}
 
 	when_taken = {
-		set_variable = {
-			name = claim_china_var
-			value = yes
-		}
+		set_variable = claim_china_var
 		trigger_event = {
 			id = claim_china.1
 			days = 0
@@ -32,35 +29,20 @@
 	}
 }
 
-taiwan_unclaim_china = {
+han_unclaim_china = {
 	is_shown = {
-		exists = c:FRS
-		c:FRS = ROOT
+		has_variable = claim_china_var
 		NOT = {
 			has_variable = unclaim_china_var
 		}
 	}
 
 	possible = {
-		any_state = {
-			has_claim_by = root
-			OR = {
-				region = sr:region_north_china
-				region = sr:region_south_china
-				region = sr:region_manchuria
-			}
-			NOR = {
-				owner = root
-				state_region = s:STATE_FORMOSA
-			}
-		}
+		c:CHI = { relations:root >= relations_threshold:cordial }	
 	}
 
 	when_taken = {
-		set_variable = {
-			name = unclaim_china_var
-			value = yes
-		}
+		set_variable = unclaim_china_var
 		trigger_event = {
 			id = claim_china.2
 			days = 0

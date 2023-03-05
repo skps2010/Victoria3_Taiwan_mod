@@ -9,14 +9,14 @@
 		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_16.dds"
+		texture = "ce_star_12.dds"
 		color1 = "white"
-		instance = { scale = { 0.55 0.55 } position = { 0.25 0.25 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
 	}
 	colored_emblem = {
 		texture = "ce_frame_circle_outline.dds"
 		color1 = "blue"
-		instance = { scale = { 0.26 0.26 } position = { 0.25 0.25 } }
+		instance = { scale = { 0.22 0.22 } position = { 0.25 0.25 } }
 	}
 }
 
