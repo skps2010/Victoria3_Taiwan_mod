@@ -79,6 +79,7 @@ min={
 			Ing-hua #Tan, Aka Chen,Yung-Hua,Tung-ning's PM
 		#Qing Era
 			Lông #Si, Si, Lang. Tinn, Tsi-liong's general. Fought Qing with Koxinga. Surrendered to Qing after he commited a crime and got his entire family killed by Koxinga. Led Qing's navy against Tang-ling's navy.
+			Iong-sik #鄭用錫
 			#Rebel Leader's name
 			It-kui #Tsu, Chu Yi-Kui. Rebel leader.
 			Song-bun #Lim Shuang-Wen. Rebel leader.
@@ -88,7 +89,7 @@ min={
 			Ching-sung #Tang, Ching-sung. From Guangxi. First President of Republic of Formosa. Ran back to Qing when Japanese landed in Keelung.
 			Yung-fu #Liu Yung-Fu. Cantonese. Second President of Republic of Formosa. Fought French in Vietnam. Tried to rally defense against Japanese, but couldn't get any help. Ran before Japanese arrived Tainan.
 			Hong-kah #Khu, Chiu, Feng-Chia. Vice president of Republic of Formosa. Tried to rally people to fight Japanese. Ran to China. Supported 1st Chinese revolution.
-			
+
 		#Japanese Period
 			Thiam-ting #Liau. Famous criminal.
 			Hian-eng #Ko. 辜顯榮 Landowner in Taipei. Open the gate of Taipei to Japanese, saving Taipei from the wrath of Japanese Imperial Army.
@@ -98,6 +99,13 @@ min={
 			Ui-sui #Tsiunn. 蔣渭水 Taiwanese. Doctor, left-wing politician.
 			Pue-hue #Tshua, 蔡培火 Taiwanese. Doctor, Right-wing politician.
 			Thoo-sui #黃土水
+			Kok-hua #林國華
+			Bun-tshat #林文察
+			Tiong-ho #陳中和
+			Hun-lian #顏雲年
+			Ho #賴和
+			Tshong-beng #杜聰明
+			Suat-khe #蔡雪溪
 		#Common name during 1912-1950 in Taiwan according to Ministry of Interior
 			Bîng #明
 			Kim-sui #金水
