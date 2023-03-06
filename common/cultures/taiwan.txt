@@ -148,7 +148,7 @@ min={
 		Khoo #許
 		Tinn #鄭
 		Sia #謝
-		Ang #紅
+		Âng #紅
 		Kueh #郭
 		Khu #丘
 		Tsan #曾
