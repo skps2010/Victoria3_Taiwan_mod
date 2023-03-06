@@ -18,7 +18,7 @@ FRI = { # Formosa indigenous peoples
 	
 	tier = principality
 	
-	cultures = { micronesian }
+	cultures = { formosan }
 	
 	capital = STATE_FORMOSA
 	is_named_from_capital = yes

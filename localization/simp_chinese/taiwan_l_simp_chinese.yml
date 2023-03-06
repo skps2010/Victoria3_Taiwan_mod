@@ -32,3 +32,6 @@ claim_china.2.c:0 "下次再說"
 
 # state traits
 state_trait_head_hunting:0 "出草"
+
+# culture
+formosan:0 "臺灣原住民"

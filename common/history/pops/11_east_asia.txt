@@ -726,7 +726,7 @@
 				size = 280145
 			}
 			create_pop = {
-				culture = micronesian
+				culture = formosan
 				size = 239837
 			}
 		}
@@ -744,7 +744,7 @@
 				size = 10701
 			}
 			create_pop = {
-				culture = micronesian
+				culture = formosan
 				size = 129837
 			}
 		}

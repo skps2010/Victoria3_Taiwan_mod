@@ -1,178 +1,162 @@
-﻿# formosan={
-# 	color= hsv{ 0.73 0.49 0.65 }
-# 	religion = animist
-# 	traits = { polynesian_group indigenous_oceanic_heritage }
-# 	male_common_first_names={
+﻿formosan={
+	color= hsv{ 0.73 0.49 0.65 }
+	religion = animist
+	traits = { polynesian_group indigenous_oceanic_heritage }
+	male_common_first_names={
+		Mayaw #Amis 歌手
+		Yohani #Bunun 原住民委員會主任委員
+		Uong'e #Cou 教育家、政治家、思想家、音樂家
+		Kimsyung #Kebalan
+		Anguu #Hla'alua 謝垂耀
+		Kilash #Thau 石阿松
+		Danapan #Puyuma 孫大川
+		Mona #Seediq 莫那·魯道
+		Taiban #Drekay 台邦·撒沙勒
+		Tahas #SaySiyat 打赫史·達印·改擺刨
+		Boyong #Atayal
+		Bokeh #Truku 徐詣帆
+		Cimseeng #Kanakanavu
+		Uliw #Paiwan 簡東明
+		Siaman #Tao 夏曼·藍波安
+		Tiway #Sakizaya 帝瓦伊·撒耘
+	}
+	female_common_first_names = {
+		Kuhap #Amis
+		Pinaz #Bunun
+		apu'u #Cou
+		Baqah #Kebalan 潘金榮
+		Inguru #Hla'alua
+		Shapzay #Thau
+		Ainuay #Puyuma
+		Robaw #Seediq
+		daremedeme #Drekay
+		kawkel #SaySiyat
+		Yungai #Atayal 溫嵐
+		Miing #Truku
+		Apu'u #Kanakanavu 阿布娪‧卡阿斐依亞那
+		Maljeveljev #Paiwan
+		Manopang #Tao
+		Sawmah #Sakizaya
+	}	
+	noble_last_names = {
 		
-# 	}
-# 	female_common_first_names = {
-		
-# 	}	
-# 	noble_last_names = {
-		
-# 	}
-# 	common_last_names={
-		
-# 	}
-# 	ethnicities = {
-# 		1 = polynesian
-# 	}
-# 	graphics = generic
-# }
+	}
+	common_last_names={
+		Ciru #Amis
+		Isqaqavut #Bunun
+		Yatauyungana #Cou
+		Siqeyu #Kebalan
+		Hiilala #Hla'alua
+		Shiqatafatu #Thau
+		Paelabang #Puyuma
+		Rudo #Seediq
+		Sasala #Drekay
+		Kaybaybaw #SaySiyat
+		Hayung #Atayal
+		Kosang #Truku
+		Kaaviana #Kanakanavu
+		Qaljupayare #Paiwan
+		Rapongan #Tao
+		Sayion #Sakizaya
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
 
-# min={
-# 	color= hsv{ 0.71 0.54 0.78 }
-# 	religion = mahayana
-# 	traits = { han_chinese east_asian_heritage }
-# 	male_common_first_names={
-# 		#Tang-ling Era Leader
-# 			Sing-Kong #Koxinga
-# 			Tsi-liong #Koxinga's father
-# 			Sip #Tinn Sip, Koxinga's brother, fought King for succession but lost, surrender to Qing
-# 			King #Tinn King, Koxinga's son
-# 			Khik-Tsong #Tinn, King's good son
-# 			Khik-Song #Tinn, King's idiot son, surrender to Qing
-# 			Tiau-Tong #Iu, Mayor of Chengtienfu
-# 			Sing-Ing #Tinn, Koxinga's cousin, Mayor of Chengtienfu
-# 			Lin #Koo, Mayor of Chengtienfu
-# 			Thinn-iu #Ang, Last mayor of Chengtienfu
-# 			Ing-Hua #Tan, Aka Chen,Yung-Hua,Tung-ning's PM
-# 		#Tang-ling Commander
-# 			Tsiau #Ng, Huang Chao. Fought Dutch. Helped Tinn Sip to fight for succession, killed in battle.
-# 			Kiong-Sin #Siau, Kong-Chen. Helped Tinn Sip to fight for succession, killed in battle.
-# 			Sin #Be, Ma Sin. Koxinga's general. Disagree with Tinn Sip's coup. Died from illness after Koxinga.
-# 			An #Ng, Huang An. Fought Qing. Helped Tinn King to reclaim his throne. Fought Formosan warrior A-Tek Kaujong.
-# 			Tsing #Tshua, Tsai Cheng. Koxinga's advisors for Justice and Rites. Against the coup, and brought Koxinga's dragon robe to Tinn King. 
-# 			Hiok #Ang, Hong Hsu. Support Tinn King's claim for throne.
-# 			Tsuan-Pin #Tsiu, Chou, Chuan-Ping. Manage Tinn King's army when he left to claim the throne. Surrendered to Qing because of bad relationship with Ang, Hiok.
-# 			Sik-Huan #Pang, Feng, Hsi-Fan. Tinn King's general. Murdered Khik-Tsong in support of Khik-Song's claim to throne. Support the peace party after Qing defeated Tang-ling's fleet in Peng-hu.
-# 			Kok-Hian #Liau, Liu, Kuo-Hsuan. Tinn King's general. Good at spying. Lost the battle in Penghu. Support peace party.
-# 			Hun #Tshua, Tsai, Yun. Tinn Sip's retainer, sucided after Tinn King defeated Ng Tsiau and Siaw Kiong-sin's force in Lu-er port.
-# 			Thai #Tinn, Cheng, Tai. Koxinga's cousin. Garrisoned in Kimmen. Secretly supported Tinn Sip, was exposed. Suicided after his sons surrendered to Qing.
-# 			Tsiong #Tshua, Tsai, Chang. Tinn Thai's retainer.
-# 		#Qing Era
-# 			Long #Si, Si, Lang. Tinn, Tsi-liong's general. Fought Qing with Koxinga. Surrendered to Qing after he commited a crime and got his entire family killed by Koxinga. Led Qing's navy against Tang-ling's navy.
-# 			#Rebel Leader's name
-# 			Kun-eng #To, Tu, Chun-Ying. Rebel leader, Chao-chou people.
-# 			It-Kui #Tsu, Chu Yi-Kui. Rebel leader.
-# 			Song-Bun #Lim Shuang-Wen. Rebel leader.
-# 			#Local Fighting
-# 			Liong-An #Ng, Huang, Long-an. Taiwanese. Businessman and Landowner. Led some local fighting in Taipei.
-# 			Peng-Ho #Lim, Lin Ping-hou. Taiwanese. Businessman and Landowner. Origin of Lim Family.
-# 			Kok-Hong #Lim, Lin Kuo-Fang. Taiwanese. Businessman and Landowner. Origin of Banciao Lim Family. Led some local fighting in Taipei.
-# 			Kok-Hoa #Lim, Lin Kuo-hua. Taiwanese. Businessman and Landowner. Origin of Banciao Lim Family.
-# 			Thing-hun #Ang, Hong, Teng-Yun. Taiwanese. Businessman and Landowner.
+min={
+	color= hsv{ 0.71 0.54 0.78 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage }
+	male_common_first_names={
+		#Tang-ling Era Leader
+			Sing-kong #Koxinga
+			Tsi-liong #Koxinga's father
+			min_King #Tinn King, Koxinga's son
+			Khik-tsong #Tinn, 克臧, King's good son
+			Khik-song #Tinn, King's idiot son, surrender to Qing
+			Ing-hua #Tan, Aka Chen,Yung-Hua,Tung-ning's PM
+		#Qing Era
+			Lông #Si, Si, Lang. Tinn, Tsi-liong's general. Fought Qing with Koxinga. Surrendered to Qing after he commited a crime and got his entire family killed by Koxinga. Led Qing's navy against Tang-ling's navy.
+			#Rebel Leader's name
+			It-kui #Tsu, Chu Yi-Kui. Rebel leader.
+			Song-bun #Lim Shuang-Wen. Rebel leader.
+			Tio-tshun #Te. Rebel leader.
 			
-# 			#Republic of Formosa
-# 			Ching-Sung #Tang, Ching-sung. From Guangxi. First President of Republic of Formosa. Ran back to Qing when Japanese landed in Keelung.
-# 			Yung-Fu #Liu Yung-Fu. Cantonese. Second President of Republic of Formosa. Fought French in Vietnam. Tried to rally defense against Japanese, but couldn't get any help. Ran before Japanese arrived Tainan.
-# 			Hong-Kah #Khu, Chiu, Feng-Chia. Vice president of Republic of Formosa. Tried to rally people to fight Japanese. Ran to China. Supported 1st Chinese revolution.
-# 			Ming-Chen #Yu, Ming-Chen. From Zhejiang.
-# 			Kui-tong #Tan, Chen, Chi-tong. From Hokkien. Minister of Foreign Affairs.
-# 			Siong-hu #Lee, Li, Hsiang-pu. Taiwanese. Scholar & head of intelligence bureau.
-# 			Ui-guan #Lim, Lin, Wei-Yuan. Belong to Banciao Lim family. Moved to Xiamen after Qing gave Taiwan to Japan.
-# 			Ki-Sioing #Pei, Pai, Chi-Hsiang. Taiwanese. Businessman. Vice Speaker. Ran to China when Japanese came.
-# 			Lam-Ing #Khoo, Hsu, Nan-Ying. Taiwanese. Advisor. Ran to China when Japanese came.
+			#Republic of Formosa
+			Ching-sung #Tang, Ching-sung. From Guangxi. First President of Republic of Formosa. Ran back to Qing when Japanese landed in Keelung.
+			Yung-fu #Liu Yung-Fu. Cantonese. Second President of Republic of Formosa. Fought French in Vietnam. Tried to rally defense against Japanese, but couldn't get any help. Ran before Japanese arrived Tainan.
+			Hong-kah #Khu, Chiu, Feng-Chia. Vice president of Republic of Formosa. Tried to rally people to fight Japanese. Ran to China. Supported 1st Chinese revolution.
 			
-# 			#Commanders
-# 			Wei-Yi #Li, Li, Wei-Yi. From Hunan. Fought Japnese in Changhua.
-# 			Ping-Jui #Li, Li, Ping-Jui. From Guangxi. Fought Japnese in Changhua.
-# 			Tong-Hin #Ng, Wu, Tang-hsing. Taiwanese Hakka. Fought Japnese in Hsinchu and Changhua. Died.
-# 			Peng-Nian #Wu, Peng-Nian. From Zhejiang. Fought Japnese in Changhua. Died.
-# 			Hsiang #Hsu, Hsiang. Taiwanese Hakka. Fought Japnese in Changhua and Yunlin. Died.
-# 			Tiau-Tong #Lim, Chao-tong. Taiwanese. Qing's minister. Tried to fight Japanese but failed. Moved to Xiamen afterward.
-# 			Kok-Lim #Khu. Chiu, Kuo-lin. Taiwanese Fought Japanese.
-			
-# 		#Japanese Period
-# 			Thiam-teng #Liau. Famous criminal.
-# 			Hsien-jung #Koo. Landowner in Taipei. Open the gate of Taipei to Japanese, saving Taipei from the wrath of Japanese Imperial Army.
-# 			Chhun-seng #Li, Li, Chun-Sheng. Taiwanese. Businessman and Landowner. Crazy Confucius Christian idiot.
-# 			Tang-boo #Eng, Huang, Tung-Mao. Hokkien. Businessman and Landowner.
-# 			Cug-Liu #Ng, Wu, Chuo-Liu. Taiwanese Hakka. Writer. Author of the Orphan of Asia.
-# 			Hian-tong #Lim. Lim, Hsian-tang. Taiwanese Businessman, Landowner and Democratic reform politician.
-# 			Ui-Sui #Tsiuun. Chiang, Wei-Shui. Taiwanese. Doctor, left-wing politician.
-# 			Ui-Tshuan #Tsiuun. Chiang, Wei-Chuan. Taiwanese. Politician.
-# 			Poe-Hoe #Tshua, Tsai, Pei-huo. Taiwanese. Doctor, Right-wing politician.
-# 			Lam-Kng #Sia, Hsie, Nan-Kuang. Taiwanese. Writer and Activist. Moved to China.
-# 			Pek-Ian #Ong, Wang, Pai-Yuan. Taiwanese. Writer.
-# 			Hong-Guan #Tan, Chen, Feng-Yuan. Taiwanese. Writer and Businessman. Right Wing.
-# 			Ni-Tshiong #Khoo, Hsu, Nai-Chang. Taiwanese. Activist, Journalist.
-# 			Ong-sing #Eng, Huang, Wang-Cheng. Taiwanese. Activist.
-# 			Sik-Kok #Tshua, Tsai, Shih-Ku. Taiwanese. Lawyer, Activist.
-# 			Un-Khing #Lian, Lien, Wen-Ching. Taiwanese. Left-wing activist. Members of Taiwan Communist Party.
-# 			Bin-Tshuan #Ong, Wang, Min-Chuan. Taiwanese. Left-wing activist. Members of Taiwan Communist Party.
-# 			Bok-sun #Lim, Lin, Mu-Shun. Taiwanese. Left-wing activist. Members of Taiwan Communist Party.
-# 			Kiat #Kan, Chien, Chih. Taiwanese. Left-wing activist. Members of Taiwan Communist Party.
-# 			Chi-Tiong #Tiunn, Chang, Chih-Chong. Members of Chinese Communist Party in Taiwan.
-# 			Kang #Tio, Chao, Kang. Left-wing activist. Members of Taiwan Communist Party.
-# 			Jit-Ko #Lim, Lin, Ji-Kao. Left-wing activist. Members of Taiwan Communist Party.
-# 			Tek-Seng #Ang, Ong, Tse-Sheng. Left-wing activist. Members of Taiwan Communist Party.
-# 			Sin #Soo, Su, Hsin. Left-wing activist. Members of Taiwan Communist Party and CCP.
-# 			Ban-Tik #Ong, Wang, Wan-Te. Left-wing activist. Members of Taiwan Communist Party.
-# 			Pia-Teng #Lo, Lu, Ping-Ting. Left-wing activist and Writers.
-# 			Ka-sing #Niu, Liang, Chia-Sheng. Left-wing activist and Budhist.
-# 			Chin-Peng #Liau, Liao, Chin-Ping. Left-wing activist.
-# 			Goan-Teng #Iu, Yang, Yuan-Ting. Activst, politician.
-# 			Thiam-Teng #Ong, Wang, Tien-Ting. Left-wing activist. Killed by KMT in 228 Incident.
-# 		#Common name during 1912-1950 in Taiwan according to Ministry of Interior
-# 			Bin #Ming
-# 			Kim-Tsui #Chin-Shui
-# 			Kian #Chien
-# 			Kim-ling #Chin-Long
-# 			Kin-sing #Chin-Sheng
-# 			Tsiann-Hiong #Cheng-Hsiong
-# 			Bun-Hiong #Wen-Hsiong
-# 			Bu-Hiong #Wu-Hsiong
-# 	}
-# 	female_common_first_names = {
-# 		#Japanese Period
-# 			Soat-hong #Taiwanese Commmunist Party
-# 			A-Sin #First Female Doctor in Taiwan.
-# 		#Democratic Period
-# 			#Head of the State and Head of Government
-# 			Hsiu-lien #Vice President
-# 			Ing-Wen #President
-# 			Chu #Activist, Politician
-# 			#Common name during 1912-1950 in Taiwan according to Ministry of Interior
-# 			Siu-ing #Hsiu-ying
-# 			Ing #Ying
-# 			Giok #Yu
-# 			Giok-lan #Yu-lan
-# 			Giok-Ing #Yu-ying
-# 			Siu-Khim #Hsiu-Chin
-# 			Bi-Giok #Mei-Yu
-# 	}	
-# 	noble_last_names = {
-# 		Lim #Wufeng Lim
-# 		Lim #Banciao Lim
-# 		Gan #Keelung Yan
-# 		Koo #Lukang Ku
-# 		Tan #Kaohsiung Chen
-# 	}
-# 	common_last_names={
-# 		Tan #Chen
-# 		Lim #Lin
-# 		Ng #Huang
-# 		Chang #Tiu
-# 		Lee #Lee
-# 		Ong #Wang
-# 		Ngo #Wu
-# 		Lau #Liu
-# 		Tshua #Tsai
-# 		Iunn #Yang
-# 		Khoo #Hsu
-# 		Tinn #Cheng
-# 		Sia #Hsieh
-# 		Ang #Hong
-# 		Kueh #Kuo
-# 		Khu #Chiu
-# 		Tsan #Tzeng
-# 		Liau #Liao
-# 		Lua #Lai
-# 		Tshi #Hsu
-# 	}
-# 	ethnicities = {
-# 		1 = asian
-# 	}
-# 	graphics = asian
-# }
+		#Japanese Period
+			Thiam-ting #Liau. Famous criminal.
+			Hian-eng #Ko. 辜顯榮 Landowner in Taipei. Open the gate of Taipei to Japanese, saving Taipei from the wrath of Japanese Imperial Army.
+			Tshun-seng #Li, 李春生. Taiwanese. Businessman and Landowner. Crazy Confucius Christian idiot.
+			Cug-liu #Ng, 吳濁流 Taiwanese Hakka. Writer. Author of the Orphan of Asia.
+			Hian-tong #Lim. 林獻堂. Taiwanese Businessman, Landowner and Democratic reform politician.
+			Ui-sui #Tsiunn. 蔣渭水 Taiwanese. Doctor, left-wing politician.
+			Pue-hue #Tshua, 蔡培火 Taiwanese. Doctor, Right-wing politician.
+			Thoo-sui #黃土水
+		#Common name during 1912-1950 in Taiwan according to Ministry of Interior
+			Bîng #明
+			Kim-sui #金水
+			Kian #健
+			Kim-liong #金龍
+			Kin-sing #金生
+			Tsing-hiong #正雄
+			Bun-hiong #文雄
+			Bu-hiong #武雄
+	}
+	female_common_first_names = {
+		#Japanese Period
+			Soat-hong #雪紅 Taiwanese Commmunist Party
+			A-sin #阿信 First Female Doctor in Taiwan.
+		#Democratic Period
+			#Head of the State and Head of Government
+			Siu-lian #秀蓮 Vice President
+			Ing-bun #英文 President
+			#Common name during 1912-1950 in Taiwan according to Ministry of Interior
+			Siu-ing #秀英
+			Ing #英
+			Giok #玉
+			Giok-lan #玉蘭
+			Giok-Ing #玉英
+			Siu-khim #秀琴
+			Bi-giok #美玉
+	}	
+	noble_last_names = {
+		Lim #Wufeng Lim
+		Lim #Banciao Lim
+		Gan #Keelung Yan
+		Koo #Lukang Ku
+		Tân #Kaohsiung Chen
+	}
+	common_last_names={
+		Tân #陳
+		Lim #林
+		Ng #黃
+		Tiunn #張
+		Li #李
+		Ông #王
+		Ngoo #吳
+		Lau #劉
+		Tshua #蔡
+		Iunn #楊
+		Khoo #許
+		Tinn #鄭
+		Sia #謝
+		Ang #紅
+		Kueh #郭
+		Khu #丘
+		Tsan #曾
+		Liau #廖
+		Lua #賴
+		Tshi #徐
+		Tsu #朱
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}

@@ -32,3 +32,6 @@ claim_china.2.c:0 "Maybe next time."
 
 # state traits
 state_trait_head_hunting:0 "Head hunting"
+
+# culture
+formosan:0 "Formosan"
