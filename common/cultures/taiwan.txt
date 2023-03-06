@@ -3,40 +3,34 @@
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	male_common_first_names={
-		Mayaw #Amis 歌手
-		Yohani #Bunun 原住民委員會主任委員
-		Uong'e #Cou 教育家、政治家、思想家、音樂家
-		Kimsyung #Kebalan
+		Mayaw #Amis 陳鏞基
+		Yohani #Bunun 尤哈尼·伊斯卡卡夫特
+		Uong'e #Cou 高一生
 		Anguu #Hla'alua 謝垂耀
 		Kilash #Thau 石阿松
 		Danapan #Puyuma 孫大川
 		Mona #Seediq 莫那·魯道
 		Taiban #Drekay 台邦·撒沙勒
 		Tahas #SaySiyat 打赫史·達印·改擺刨
-		Boyong #Atayal
 		Bokeh #Truku 徐詣帆
-		Cimseeng #Kanakanavu
 		Uliw #Paiwan 簡東明
 		Siaman #Tao 夏曼·藍波安
 		Tiway #Sakizaya 帝瓦伊·撒耘
 	}
 	female_common_first_names = {
+		Baqah #Kebalan 潘金榮
+		Yungai #Atayal 溫嵐
+		Apu'u #Kanakanavu 阿布娪‧卡阿斐依亞那
 		Kuhap #Amis
 		Pinaz #Bunun
 		apu'u #Cou
-		Baqah #Kebalan 潘金榮
 		Inguru #Hla'alua
 		Shapzay #Thau
 		Ainuay #Puyuma
 		Robaw #Seediq
 		daremedeme #Drekay
 		kawkel #SaySiyat
-		Yungai #Atayal 溫嵐
 		Miing #Truku
-		Apu'u #Kanakanavu 阿布娪‧卡阿斐依亞那
-		Maljeveljev #Paiwan
-		Manopang #Tao
-		Sawmah #Sakizaya
 	}	
 	noble_last_names = {
 		
