@@ -34,7 +34,13 @@ claim_china.1 = {
 		ai_chance = {
 			base = 1
 		}
-		add_primary_culture = cu:han
+		IF = {
+			limit = { country_has_primary_culture = cu:han }
+			set_variable = had_primary_han
+		}
+		ELSE = {
+			add_primary_culture = cu:han
+		}
 		IF = {
 			limit = { country_has_primary_culture = cu:hakka }
 			set_variable = had_primary_hakka
@@ -140,7 +146,13 @@ claim_china.2 = {
 			add_primary_culture = cu:yue
 			remove_variable = had_primary_yue
 		}
-		remove_primary_culture = cu:han
+		IF = {
+			limit = { has_variable = had_primary_han }
+			remove_variable = had_primary_han
+		}
+		ELSE = {
+			remove_primary_culture = cu:han
+		}
 		remove_variable = claim_china_var
 		remove_variable = unclaim_china_var
 		every_state_region = {

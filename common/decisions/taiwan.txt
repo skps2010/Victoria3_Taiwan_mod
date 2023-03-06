@@ -38,6 +38,7 @@ han_unclaim_china = {
 	}
 
 	possible = {
+		exists = c:CHI
 		c:CHI = { relations:root >= relations_threshold:cordial }	
 	}
 
