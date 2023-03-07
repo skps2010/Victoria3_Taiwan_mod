@@ -79,16 +79,10 @@ min={
 			Song-bun #Lim Shuang-Wen. Rebel leader.
 			Tio-tshun #Te. Rebel leader.
 			
-			#Republic of Formosa
-			Ching-sung #Tang, Ching-sung. From Guangxi. First President of Republic of Formosa. Ran back to Qing when Japanese landed in Keelung.
-			Yung-fu #Liu Yung-Fu. Cantonese. Second President of Republic of Formosa. Fought French in Vietnam. Tried to rally defense against Japanese, but couldn't get any help. Ran before Japanese arrived Tainan.
-			Hong-kah #Khu, Chiu, Feng-Chia. Vice president of Republic of Formosa. Tried to rally people to fight Japanese. Ran to China. Supported 1st Chinese revolution.
-
 		#Japanese Period
 			Thiam-ting #Liau. Famous criminal.
 			Hian-eng #Ko. 辜顯榮 Landowner in Taipei. Open the gate of Taipei to Japanese, saving Taipei from the wrath of Japanese Imperial Army.
 			Tshun-seng #Li, 李春生. Taiwanese. Businessman and Landowner. Crazy Confucius Christian idiot.
-			Cug-liu #Ng, 吳濁流 Taiwanese Hakka. Writer. Author of the Orphan of Asia.
 			Hian-tong #Lim. 林獻堂. Taiwanese Businessman, Landowner and Democratic reform politician.
 			Ui-sui #Tsiunn. 蔣渭水 Taiwanese. Doctor, left-wing politician.
 			Pue-hue #Tshua, 蔡培火 Taiwanese. Doctor, Right-wing politician.
@@ -100,6 +94,9 @@ min={
 			Ho #賴和
 			Tshong-beng #杜聰明
 			Suat-khe #蔡雪溪
+			Tshing-hong #余清芳
+			Tai-Sai #簡大獅
+			Teng-pho #陳澄波
 		#Common name during 1912-1950 in Taiwan according to Ministry of Interior
 			Bîng #明
 			Kim-sui #金水
