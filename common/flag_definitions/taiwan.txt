@@ -1,8 +1,52 @@
 ﻿FRS = { # FORMOSA
 	flag_definition = {
-		coa = FRS_republic_modern
-		priority = 1504
-		trigger = { 
+		coa = FRS_communist
+		priority = 1500
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRS_subject_FRA
+		allow_overlord_canton = yes	
+		overlord_canton_offset = { 0.067 0.1 }
+		overlord_canton_scale = { 0.39 0.385 }			
+		priority = 50
+		trigger = {
+			coa_def_french_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRS_monarchy
+		priority = 20
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				OR = {
+					country_has_primary_culture = cu:han
+					country_has_primary_culture = cu:hakka
+					country_has_primary_culture = cu:min
+					country_has_primary_culture = cu:yue
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRS_theocracy
+		subject_canton = FRS_theocracy
+		priority = 10
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+			OR = {
+				country_has_primary_culture = cu:hakka
+				country_has_primary_culture = cu:min
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRS_modern
+		priority = 10
+		trigger = {
 			coa_def_republic_flag_trigger = yes
 			NOT = { coa_def_communist_flag_trigger = yes }
 			scope:actor = {
@@ -12,41 +56,16 @@
 		}
 	}
 	flag_definition = {
-		coa = FRS_bing
-		priority = 1503
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-			scope:actor = {
-				country_has_primary_culture = cu:han
-			}
-		}
-	}
-	flag_definition = {
-		coa = FRS_china
-		priority = 1502
-		trigger = { 
-			scope:actor = {
-				country_has_primary_culture = cu:han
-			}
-		}
-	}
-	flag_definition = {
-		coa = FRS_monarchy
-		priority = 1501
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = FRS_communist
-		priority = 1501
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
+		coa = FRS_subject_CHI
+		priority = 2
+		trigger = {
+			coa_def_chinese_ensign_trigger = yes
+			coa_def_republic_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = FRS
-		priority = 1500
+		priority = 1
 	}
 }
 
