@@ -17,18 +17,37 @@
 		}
 	}
 	flag_definition = {
+		coa = FRS_subject_CHI
+		priority = 50
+		trigger = {
+			coa_def_chinese_ensign_trigger = yes
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRS_bing
+		priority = 40
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				country_has_primary_culture = cu:han
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRS_china
+		priority = 30
+		trigger = { 
+			scope:actor = {
+				country_has_primary_culture = cu:han
+			}
+		}
+	}
+	flag_definition = {
 		coa = FRS_monarchy
 		priority = 20
 		trigger = {
 			coa_def_monarchy_flag_trigger = yes
-			scope:actor = {
-				OR = {
-					country_has_primary_culture = cu:han
-					country_has_primary_culture = cu:hakka
-					country_has_primary_culture = cu:min
-					country_has_primary_culture = cu:yue
-				}
-			}
 		}
 	}
 	flag_definition = {
@@ -37,30 +56,16 @@
 		priority = 10
 		trigger = {
 			coa_def_theocracy_flag_trigger = yes
-			OR = {
-				country_has_primary_culture = cu:hakka
-				country_has_primary_culture = cu:min
-			}
 		}
 	}
 	flag_definition = {
-		coa = FRS_modern
+		coa = FRS_republic_modern
 		priority = 10
 		trigger = {
 			coa_def_republic_flag_trigger = yes
-			NOT = { coa_def_communist_flag_trigger = yes }
 			scope:actor = {
 				has_law = law_type:law_multicultural
-				country_has_primary_culture = cu:min
 			}
-		}
-	}
-	flag_definition = {
-		coa = FRS_subject_CHI
-		priority = 2
-		trigger = {
-			coa_def_chinese_ensign_trigger = yes
-			coa_def_republic_flag_trigger = yes
 		}
 	}
 	flag_definition = {

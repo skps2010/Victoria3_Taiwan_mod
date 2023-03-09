@@ -1,4 +1,4 @@
-﻿FRS_subject_CHI = { # Tâi-oân Bîn-kok
+﻿FRS_china = { # 中華民國
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 						
@@ -9,7 +9,7 @@
 		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_04.dds"
+		texture = "ce_star_12.dds"
 		color1 = "white"
 		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
 	}
@@ -20,14 +20,41 @@
 	}
 }
 
-FRS_monarchy = { # Reminiscent Ming Restoration
+FRS_subject_CHI = { # Tâi-oân Bîn-kok
 	pattern = "pattern_solid.tga"
 	color1 = "red"
+						
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.23 0.23 } position = { 0.25 0.16 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.23 0.23 } position = { 0.15 0.36 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.23 0.23 } position = { 0.35 0.36 } }
+	}
+}
+
+FRS_bing = { # 明
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
 	colored_emblem = {
 		texture = "ce_circle.dds"
 		color1 = "white"
 		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
-	}
+	}	
 	colored_emblem = {
 		texture = "ce_ming.dds"
 		color1 = "black"
@@ -35,17 +62,34 @@ FRS_monarchy = { # Reminiscent Ming Restoration
 	}
 }
 
-FRS = { # Republic of Formosa
+FRS_monarchy = { # 東寧
 	pattern = "pattern_solid.tga"
-	color1 = { 40 83 127 }
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_frame_circle_outline.dds"
+		color1 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_tenn.png"
+		color1 = "black"
+		instance = { scale = { 1 1 } position = { 0.48 0.48 } }
+	}
+}
+
+FRS = { # 台灣民主國
+	pattern = "pattern_solid.tga"
+	color1 = { 30 65 107 }
 
 	textured_emblem = {
 		texture = "te_taiwan_republic_1895.png"
         instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-	}
+	}	
 }
 
-FRS_modern = { # Democratic Republic of Taiwan
+FRS_republic_modern = { # 台灣共和國
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -59,10 +103,10 @@ FRS_modern = { # Democratic Republic of Taiwan
 		texture = "ce_taiwan.png"
 		color1 = "green"
         instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-	}
+	}	
 }
 
-FRS_communist = { # People's Republic of Taiwan
+FRS_communist = { # 台灣人民共和國
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
@@ -76,13 +120,13 @@ FRS_communist = { # People's Republic of Taiwan
 		texture = "ce_star_05.dds"
 		color1 = "red"
         instance = { position = { 0.73 0.43 } scale = { 0.15 0.15 } }
-	}
+	}	
 
 	colored_emblem = {
 		texture = "ce_hammer_and_sickle.dds"
 		color1 = "red"
         instance = { position = { 0.68 0.59 } scale = { 0.2 0.2 } }
-	}
+	}	
 
 	colored_emblem = {
 		texture = "ce_fish_oudh.dds"
@@ -90,7 +134,7 @@ FRS_communist = { # People's Republic of Taiwan
 		color2 = "red"
 		color3 = "red"
         instance = { position = { 0.65 0.72 } scale = { 0.18 0.18 } }
-	}
+	}	
 }
 
 FRS_subject_FRA = { # French Formosa
@@ -137,12 +181,12 @@ FRS_theocracy = { # Great Ming Compassionate
 	}
 }
 
-FRI = { # Formosan tribal federation
+FRI = { # 台灣原住民
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
 	textured_emblem = {
 		texture = "te_formosan_indigenous_peoples.png"
         instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
-	}
+	}	
 }

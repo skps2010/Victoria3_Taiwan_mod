@@ -714,11 +714,11 @@
 				size = 1708362
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = manchu
 				size = 492
 			}
 			create_pop = {
-				culture = yue # teochew
+				culture = han # 南方人
 				size = 499472
 			}
 			create_pop = {
@@ -732,7 +732,7 @@
 		}
 		region_state:FRI = {
 			create_pop = {
-				culture = yue # teochew
+				culture = han # 南方人
 				size = 11462
 			}
 			create_pop = {
