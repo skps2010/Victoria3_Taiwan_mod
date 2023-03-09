@@ -20,6 +20,33 @@
 	}
 }
 
+FRS_subject_CHI = { # Tâi-oân Bîn-kok
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+						
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.23 0.23 } position = { 0.25 0.16 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.23 0.23 } position = { 0.15 0.36 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.23 0.23 } position = { 0.35 0.36 } }
+	}
+}
+
 FRS_bing = { # 明
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -108,6 +135,50 @@ FRS_communist = { # 台灣人民共和國
 		color3 = "red"
         instance = { position = { 0.65 0.72 } scale = { 0.18 0.18 } }
 	}	
+}
+
+FRS_subject_FRA = { # French Formosa
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_solid.dds" # Regular Border
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }		
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.267 0.30 } scale = { 0.4 0.4 } }			
+	}
+}
+
+FRS_theocracy = { # Great Ming Compassionate
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "saffron"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_logograms_ming_compassionate.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }			
+	}
+	colored_emblem = {
+		texture = "ce_ming_compassionate.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}
 }
 
 FRI = { # 台灣原住民
