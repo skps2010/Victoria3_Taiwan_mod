@@ -19,9 +19,20 @@
 		priority = 5
 		
 		trigger = {
+			coa_def_republic_flag_trigger = yes
 			scope:actor = {
 				country_has_primary_culture = cu:han
 			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_tai_bing_tsu_pi_kok
+		
+		is_main_tag_only = yes
+		priority = 4
+		
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
 		}
 	}
 	dynamic_country_name = {

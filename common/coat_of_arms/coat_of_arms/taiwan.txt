@@ -168,15 +168,13 @@ FRS_theocracy = { # Great Ming Compassionate
 		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_logograms_ming_compassionate.dds"
+		texture = "ce_logograms_ming_compassionate.png"
 		color1 = "white"
-		color2 = "white"
         instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }			
 	}
 	colored_emblem = {
-		texture = "ce_ming_compassionate.dds"
+		texture = "ce_ming.dds"
 		color1 = "white"
-		color2 = "white"
         instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
 	}
 }

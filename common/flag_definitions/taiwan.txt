@@ -38,6 +38,7 @@
 		coa = FRS_china
 		priority = 30
 		trigger = { 
+			coa_def_republic_flag_trigger = yes
 			scope:actor = {
 				country_has_primary_culture = cu:han
 			}
