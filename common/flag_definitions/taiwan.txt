@@ -25,6 +25,15 @@
 		}
 	}
 	flag_definition = {
+		coa = FRS_subject_JAP
+		priority = 50
+		trigger = {
+			exists = c:JAP
+			c:JAP = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = FRS_bing
 		priority = 40
 		trigger = { 
@@ -60,12 +69,23 @@
 		}
 	}
 	flag_definition = {
+		coa = FRS_republic_modern2
+		priority = 15
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			scope:actor = {
+				has_law = law_type:law_multicultural
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	flag_definition = {
 		coa = FRS_republic_modern
 		priority = 10
 		trigger = {
 			coa_def_republic_flag_trigger = yes
 			scope:actor = {
-				has_law = law_type:law_multicultural
+				has_law = law_type:law_universal_suffrage
 			}
 		}
 	}

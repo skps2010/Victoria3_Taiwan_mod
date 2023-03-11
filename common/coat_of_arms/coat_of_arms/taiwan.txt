@@ -73,9 +73,9 @@ FRS_monarchy = { # 東寧
 	}
 
 	colored_emblem = {
-		texture = "ce_tenn.png"
+		texture = "ce_tinn.png"
 		color1 = "black"
-		instance = { scale = { 1 1 } position = { 0.48 0.48 } }
+		instance = { scale = { 1 1 } position = { 0.49 0.5 } }
 	}
 }
 
@@ -89,7 +89,7 @@ FRS = { # 台灣民主國
 	}	
 }
 
-FRS_republic_modern = { # 台灣共和國
+FRS_republic_modern = { # 台灣共和國，臺灣島旗
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -104,6 +104,29 @@ FRS_republic_modern = { # 台灣共和國
 		color1 = "green"
         instance = { position = { 0.5 0.5 } scale = { 1 1 } }
 	}	
+}
+
+FRS_republic_modern2 = { # 台灣共和國，台字紋旗
+	pattern = "pattern_solid.tga"
+	color1 = {23 57 95}
+
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "white"
+		instance = { position = { 0.5 1 } scale = { 1 1.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = {107 192 189}
+        instance = { position = { 0.5 1 } scale = { 0.33 0.5 } }
+	}	
+
+	colored_emblem = {
+		texture = "ce_tai_ji_bun.png"
+		color1 = {23 57 95}
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
 }
 
 FRS_communist = { # 台灣人民共和國
@@ -187,4 +210,15 @@ FRI = { # 台灣原住民
 		texture = "te_formosan_indigenous_peoples.png"
         instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
 	}	
+}
+
+FRS_subject_JAP = { # Japanese Formosa
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tai_ji_bun.png"
+		color1 = "red"
+        instance = { position = { 0.5 0.5 } scale = { 1.5 1.5 } }
+	}
 }
