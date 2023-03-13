@@ -31,6 +31,12 @@ claim_china.2.f:0 "Local people think that taking back China is too unrealistic 
 claim_china.2.a:0 "Unclaim the whole [SCOPE.sCountry('china_scope').GetName] and become Taiwan."
 claim_china.2.c:0 "Maybe next time."
 
+taiwan_revolt.1.t:0 "taiwan revolt"
+taiwan_revolt.1.d:0 "taiwan revolt"
+taiwan_revolt.1.f:0 ""
+taiwan_revolt.1.a:0 "agree"
+taiwan_revolt.1.b:0 "no"
+
 # state traits
 state_trait_head_hunting:0 "Head hunting"
 

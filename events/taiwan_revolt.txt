@@ -1,0 +1,116 @@
+﻿namespace = taiwan_revolt
+
+taiwan_revolt.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = taiwan_revolt.1.t
+	desc = taiwan_revolt.1.d
+	flavor = taiwan_revolt.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_war_civilians.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/war_civilians"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	trigger = {
+		NOT = { 
+			exists = c:FRS
+			country_has_primary_culture = cu:min
+			country_has_primary_culture = cu:formosan
+		}
+		any_scope_state = {
+			is_capital = no
+			state_region = s:STATE_FORMOSA # 可能會加入其他省
+			turmoil > 0.2
+		}
+	}
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				is_capital = no
+				state_region = s:STATE_FORMOSA
+				turmoil > 0.2
+			}
+			save_scope_as = secession_state
+		}
+		if = {
+			limit = {
+				scope:secession_state = {
+					state_region = s:STATE_FORMOSA
+				}
+			}
+			create_country = {
+				tag = FRS
+				origin = this
+				state = scope:secession_state
+			}
+			c:FRS = {
+				save_scope_as = secession_country
+				capital = {
+					save_scope_as = secession_capital
+				}
+			}
+		}
+	}
+
+	# Accept secession
+	option = {
+		name = taiwan_revolt.1.a
+		scope:secession_country = {
+			change_relations = {
+				country = ROOT
+				value = 20
+			}
+			capital = {
+				state_region = {
+					add_devastation = 15
+				}
+				add_loyalists = {
+					value = 0.5
+				}
+			}
+		}
+	}
+
+	# Reject Secession
+	option = {
+		name = taiwan_revolt.1.b
+		default_option = yes
+		scope:secession_capital = {
+			state_region = {
+				add_claim = ROOT
+			}
+		}
+		scope:secession_country = {
+			capital = {
+				state_region = {
+					add_devastation = 25
+				}
+				add_loyalists = {
+					value = 0.5
+				}
+			}
+		}
+		create_diplomatic_play = {
+			name = taiwan_revolt_war
+			target_country = scope:secession_country
+			war = yes
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:FRS
+				type = revoke_claim
+				target_country = ROOT
+				target_state = s:STATE_FORMOSA.region_state
+			}
+		}
+	}
+}
