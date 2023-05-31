@@ -51,7 +51,7 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 				size = 280145
 			}
 			create_pop = {
-				culture = formosan
+				culture = yuanzhumin
 				size = 239837
 			}
 		}
@@ -69,7 +69,7 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 				size = 10701
 			}
 			create_pop = {
-				culture = formosan
+				culture = yuanzhumin
 				size = 129837
 ---
 				size = 1880000

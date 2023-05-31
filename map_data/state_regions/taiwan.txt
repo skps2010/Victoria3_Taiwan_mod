@@ -5,10 +5,13 @@
     city = "x6DAB21"
     port = "xE73B31" #"x44797F"
 
+
     farm = "xAEA2D8"
     mine = "x7070E0" #"xE73B31"
 
+
     wood = "x7070E0" #"xE73B31"
+
 
     arable_land = 110
     traits = { "state_trait_head_hunting" }

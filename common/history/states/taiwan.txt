@@ -6,7 +6,8 @@
 				xBB27F6 x44797F x9A5066
 			}
 		}
-		add_homeland = formosan
+		remove_homeland = polynesian
+		add_homeland = yuanzhumin
 		add_homeland = hakka
 	}
 }

@@ -1,49 +1,49 @@
 ﻿l_simp_chinese:
 
-Mayaw:0 "馬耀" #Amis 陳鏞基
-Yohani:0 "尤哈尼" #Bunun 尤哈尼·伊斯卡卡夫特
-Uong'e:0 "吾雍" #Cou 教育家、政治家、思想家、音樂家
-Anguu:0 "安故"  #Hla'alua 謝垂耀?
-Kilash:0 "其拉希"  #Thau 石阿松?
-Danapan:0 "德納班"  #Puyuma 孫大川
-Mona:0 "莫那"  #Seediq 莫那·魯道
-Taiban:0 "台邦"  #Drekay 台邦·撒沙勒
-Tahas:0 "打赫史"  #SaySiyat 打赫史·達印·改擺刨
-Bokeh:0 "布克"  #Truku 徐詣帆?
-Uliw:0 "烏力烏"  #Paiwan 簡東明?
-Siaman:0 "夏曼"  #Tao 夏曼·藍波安
-Tiway:0 "帝瓦伊"  #Sakizaya 帝瓦伊·撒耘
+# Mayaw:0 "馬耀" #Amis 陳鏞基
+# Yohani:0 "尤哈尼" #Bunun 尤哈尼·伊斯卡卡夫特
+# Uong'e:0 "吾雍" #Cou 教育家、政治家、思想家、音樂家
+# Anguu:0 "安故"  #Hla'alua 謝垂耀?
+# Kilash:0 "其拉希"  #Thau 石阿松?
+# Danapan:0 "德納班"  #Puyuma 孫大川
+# Mona:0 "莫那"  #Seediq 莫那·魯道
+# Taiban:0 "台邦"  #Drekay 台邦·撒沙勒
+# Tahas:0 "打赫史"  #SaySiyat 打赫史·達印·改擺刨
+# Bokeh:0 "布克"  #Truku 徐詣帆?
+# Uliw:0 "烏力烏"  #Paiwan 簡東明?
+# Siaman:0 "夏曼"  #Tao 夏曼·藍波安
+# Tiway:0 "帝瓦伊"  #Sakizaya 帝瓦伊·撒耘
 
-Baqah:0 "巴卡"  #Kebalan 潘金榮?
-Yungai:0 "詠愛"  #Atayal 溫嵐
-Apu'u:0 "阿布娪"  #Kanakanavu 阿布娪‧卡阿斐依亞那
-Kuhap:0 "庫哈普" #Amis
-Pinaz:0 "皮納茲" #Bunun
-apu'u:0 "阿普烏" #Cou
-Inguru:0 "因古魯" #Hla'alua
-Shapzay:0 "沙普澤" #Thau
-Ainuay:0 "艾努艾" #Puyuma
-Robaw:0 "羅巴" #Seediq
-daremedeme:0 "德拉美帝美" #Drekay
-kawkel:0 "考克爾" #SaySiyat
-Miing:0 "迷應" #Truku
+# Baqah:0 "巴卡"  #Kebalan 潘金榮?
+# Yungai:0 "詠愛"  #Atayal 溫嵐
+# Apu'u:0 "阿布娪"  #Kanakanavu 阿布娪‧卡阿斐依亞那
+# Kuhap:0 "庫哈普" #Amis
+# Pinaz:0 "皮納茲" #Bunun
+# apu'u:0 "阿普烏" #Cou
+# Inguru:0 "因古魯" #Hla'alua
+# Shapzay:0 "沙普澤" #Thau
+# Ainuay:0 "艾努艾" #Puyuma
+# Robaw:0 "羅巴" #Seediq
+# daremedeme:0 "德拉美帝美" #Drekay
+# kawkel:0 "考克爾" #SaySiyat
+# Miing:0 "迷應" #Truku
 
-Ciru:0 "吉洛" #Amis
-Isqaqavut:0 "伊斯卡卡夫特"  #Bunun
-Yatauyungana:0 "雅達烏猶卡那" #Cou
-Siqeyu:0 "賽克窪"  #Kebalan?
-Hiilala:0 "希拉拉"  #Hla'alua?
-Shiqatafatu:0 "什卡塔法圖"  #Thau?
-Paelabang:0 "巴厄拉邦"  #Puyuma
-Rudo:0 "魯道"  #Seediq
-Sasala:0 "撒沙勒"  #Drekay
-Kaybaybaw:0 "改擺刨"  #SaySiyat
-Hayung:0 "哈勇"  #Atayal
-Kosang:0 "客松"  #Truku?
-Kaaviana:0 "卡阿斐依亞那"  #Kanakanavu
-Qaljupayare:0 "蓋爾朱帕亞雷"  #Paiwan?
-Rapongan:0 "藍波安"  #Tao
-Sayion:0 "撒耘"  #Sakizaya
+# Ciru:0 "吉洛" #Amis
+# Isqaqavut:0 "伊斯卡卡夫特"  #Bunun
+# Yatauyungana:0 "雅達烏猶卡那" #Cou
+# Siqeyu:0 "賽克窪"  #Kebalan?
+# Hiilala:0 "希拉拉"  #Hla'alua?
+# Shiqatafatu:0 "什卡塔法圖"  #Thau?
+# Paelabang:0 "巴厄拉邦"  #Puyuma
+# Rudo:0 "魯道"  #Seediq
+# Sasala:0 "撒沙勒"  #Drekay
+# Kaybaybaw:0 "改擺刨"  #SaySiyat
+# Hayung:0 "哈勇"  #Atayal
+# Kosang:0 "客松"  #Truku?
+# Kaaviana:0 "卡阿斐依亞那"  #Kanakanavu
+# Qaljupayare:0 "蓋爾朱帕亞雷"  #Paiwan?
+# Rapongan:0 "藍波安"  #Tao
+# Sayion:0 "撒耘"  #Sakizaya
 
 Sing-kong:0 "成功"
 Tsi-liong:0 "芝龍"
@@ -110,7 +110,6 @@ Tân:0 "陳"
 
 Ng:0 "黃"
 Tiunn:0 "張"
-Li:0 "李"
 Ông:0 "王"
 Ngoo:0 "吳"
 Lau:0 "劉"
