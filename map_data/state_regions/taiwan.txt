@@ -4,9 +4,12 @@
     provinces = { "x44797F" "x6645CF" "x6DAB21" "x7070E0" "x9A5066" "xAEA2D8" "xBB27F6" "xE73B31" }
     city = "x6DAB21"
     port = "xE73B31" #"x44797F"
+
     farm = "xAEA2D8"
     mine = "x7070E0" #"xE73B31"
+
     wood = "x7070E0" #"xE73B31"
+
     arable_land = 110
     traits = { "state_trait_head_hunting" }
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" "bg_sugar_plantations" "bg_coffee_plantations" }
