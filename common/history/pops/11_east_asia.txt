@@ -715,7 +715,7 @@
 			}
 			create_pop = {
 				culture = manchu
-				size = 500
+				size = 492
 			}
 			create_pop = {
 				culture = han # 南方人

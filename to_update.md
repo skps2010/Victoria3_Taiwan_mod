@@ -36,48 +36,39 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 
 ## common/history/pops/11_east_asia.txt
 ### s:STATE_FORMOSA
-				size = 1708362
-			}
-			create_pop = {
-				culture = manchu
-				size = 492
-			}
-			create_pop = {
-				culture = han # 南方人
-				size = 499472
-			}
-			create_pop = {
-				culture = hakka
-				size = 280145
-			}
-			create_pop = {
-				culture = yuanzhumin
-				size = 239837
-			}
-		}
-		region_state:FRI = {
-			create_pop = {
-				culture = han # 南方人
-				size = 11462
-			}
-			create_pop = {
-				culture = min
-				size = 42483
-			}
-			create_pop = {
-				culture = hakka
-				size = 10701
-			}
-			create_pop = {
-				culture = yuanzhumin
-				size = 129837
+714c714
+<                               size = 1470000
 ---
-				size = 1880000
-			}
-			create_pop = {
-				culture = manchu
-				size = 492
-			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 1015504
+>                               size = 1480000
+721,744c721,722
+<                               culture = han # 南方人
+<                               size = 490000
+<                       }
+<                       create_pop = {
+<                               culture = hakka
+<                               size = 270000
+<                       }
+<                       create_pop = {
+<                               culture = yuanzhumin
+<                               size = 470000
+<                       }
+<               }
+<               region_state:FRI = {
+<                       create_pop = {
+<                               culture = han # 南方人
+<                               size = 15000
+<                       }
+<                       create_pop = {
+<                               culture = min
+<                               size = 40000
+<                       }
+<                       create_pop = {
+<                               culture = hakka
+<                               size = 10000
+---
+>                               culture = han # nanfaren
+>                               size = 815504
+748c726
+<                               size = 140000
+---
+>                               size = 600000

@@ -6,8 +6,8 @@
 				xBB27F6 x44797F x9A5066
 			}
 		}
-		remove_homeland = polynesian
-		add_homeland = yuanzhumin
-		add_homeland = hakka
+		remove_homeland = cu:polynesian
+		add_homeland = cu:yuanzhumin
+		add_homeland = cu:hakka
 	}
 }
