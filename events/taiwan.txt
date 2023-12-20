@@ -153,6 +153,10 @@ claim_china.2 = {
 		ELSE = {
 			remove_primary_culture = cu:han
 		}
+		change_relations = { 
+			country = c:CHI
+			value = 30 
+		}
 		remove_variable = claim_china_var
 		remove_variable = unclaim_china_var
 		every_state_region = {

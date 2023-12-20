@@ -12,6 +12,7 @@
 		NOT = {
 			is_subject_of = c:CHI
 		}
+		country_rank >= c:CHI.country_rank
 		c:CHI = { relations:root <= relations_threshold:poor }	
 	}
 

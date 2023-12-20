@@ -28,7 +28,7 @@ claim_china.1.c:0 "下次再說"
 claim_china.2.t:0 "移除中國的宣稱"
 claim_china.2.d:0 "我們應該停止宣稱中國，並將重心放在真正的國土上"
 claim_china.2.f:0 "本土民眾認為反攻大陸太不切實際且毫無必要，我們該停止幻想並專注於真正的家園"
-claim_china.2.a:0 "停止宣稱整個[SCOPE.sCountry('china_scope').GetName]並成為臺灣"
+claim_china.2.a:0 "停止宣稱整個[SCOPE.sCountry('china_scope').GetName]並回歸本性"
 claim_china.2.c:0 "下次再說"
 
 # state traits
