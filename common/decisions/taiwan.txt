@@ -5,6 +5,7 @@
 			ROOT = c:CHI
 			has_variable = claim_china_var
 		}
+		is_revolutionary = no
 	}
 
 	possible = {
