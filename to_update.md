@@ -36,11 +36,11 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 
 ## common/history/pops/11_east_asia.txt
 ### s:STATE_FORMOSA
-714c714
+771c771
 <                               size = 1470000
 ---
 >                               size = 1480000
-721,744c721,722
+778,801c778,779
 <                               culture = han # 南方人
 <                               size = 490000
 <                       }
@@ -68,7 +68,7 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 ---
 >                               culture = han # nanfaren
 >                               size = 815504
-748c726
+805c783
 <                               size = 140000
 ---
 >                               size = 600000
