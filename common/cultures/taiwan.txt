@@ -61,7 +61,7 @@
 
 min={
 	color= hsv{ 0.71 0.54 0.78 }
-	religion = mahayana
+	religion = confucian
 	traits = { han_chinese east_asian_heritage }
 	male_common_first_names={
 		#Tang-ling Era Leader
