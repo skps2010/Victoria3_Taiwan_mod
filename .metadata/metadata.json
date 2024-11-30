@@ -1,8 +1,8 @@
 {
   "name" : "Taiwan Flavor",
   "id" : "",
-  "version" : "1.8",
-  "supported_game_version" : "1.7.*",
+  "version" : "1.9",
+  "supported_game_version" : "1.8.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

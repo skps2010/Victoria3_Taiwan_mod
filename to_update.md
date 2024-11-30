@@ -1,10 +1,10 @@
 ## commands
 ```bash
-game_folder='/Users/phylla/Library/Application Support/Steam/steamapps/common/Victoria 3/game'
-diff gfx/map/map_object_data/static.txt "$game_folder/gfx/map/map_object_data/static.txt"
-diff gfx/map/map_object_data/generated_map_object_locators_wood.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_wood.txt"
-diff gfx/map/map_object_data/generated_map_object_locators_mine.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_mine.txt"
+game_folder='/Users/umi/Library/Application Support/Steam/steamapps/common/Victoria 3/game'
 diff gfx/map/map_object_data/generated_map_object_locators_port.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_port.txt"
+diff gfx/map/map_object_data/generated_map_object_locators_mine.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_mine.txt"
+diff gfx/map/map_object_data/generated_map_object_locators_wood.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_wood.txt"
+diff gfx/map/map_object_data/static.txt "$game_folder/gfx/map/map_object_data/static.txt"
 diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_east_asia.txt"
 ```
 
@@ -13,14 +13,14 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
                       position={ 6835.833496 0.000000 2043.235962 }
                       rotation={ -0.000000 -0.571706 -0.000000 0.820459 }
 ---
-                      position={ 6856.365234 0.000000 2040.339233 }
-                      rotation={ -0.000000 0.472607 -0.000000 0.881274 }
+                      position={ 6837.620117 0.000000 2037.625000 }
+                      rotation={ -0.000000 -0.573658 -0.000000 0.819096 }
 
 ## gfx/map/map_object_data/generated_map_object_locators_mine.txt
 ### id=510
                       position={ 6854.577637 0.000000 2082.012695 }
 ---
-                      position={ 6841.034668 0.000000 2038.723389 }
+                      position={ 6869.879395 0.000000 2092.781738 }
 
 ## gfx/map/map_object_data/generated_map_object_locators_wood.txt
 ### id=510
@@ -36,17 +36,25 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 
 ## common/history/pops/11_east_asia.txt
 ### s:STATE_FORMOSA
-771c771
-<                               size = 1470000
+980c980
+<                               size = 470000
 ---
->                               size = 1480000
-778,801c778,779
-<                               culture = han # 南方人
-<                               size = 490000
+>                               size = 480000
+988c988
+<                               size = 367500
+---
+>                               size = 605504
+993,1026c993
+<                               size = 122500
 <                       }
 <                       create_pop = {
 <                               culture = hakka
-<                               size = 270000
+<                               size = 202500
+<                       }
+<                       create_pop = {
+<                               culture = hakka
+<                               religion = mahayana
+<                               size = 67500
 <                       }
 <                       create_pop = {
 <                               culture = yuanzhumin
@@ -56,19 +64,34 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
 <               region_state:FRI = {
 <                       create_pop = {
 <                               culture = han # 南方人
-<                               size = 15000
+<                               size = 11250
+<                       }
+<                       create_pop = {
+<                               culture = han # 南方人
+<                               religion = mahayana
+<                               size = 3750
 <                       }
 <                       create_pop = {
 <                               culture = min
-<                               size = 40000
+<                               size = 30000
+<                       }
+<                       create_pop = {
+<                               culture = min
+<                               religion = mahayana
+<                               size = 10000
+---
+>                               size = 215504
+1029,1037d995
+<                               culture = hakka
+<                               size = 7500
 <                       }
 <                       create_pop = {
 <                               culture = hakka
-<                               size = 10000
----
->                               culture = han # nanfaren
->                               size = 815504
-805c783
+<                               religion = mahayana
+<                               size = 2500
+<                       }
+<                       create_pop = {
+1039c997
 <                               size = 140000
 ---
 >                               size = 600000

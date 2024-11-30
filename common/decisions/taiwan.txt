@@ -2,7 +2,7 @@
 	is_shown = {
 		any_primary_culture = { has_discrimination_trait = han_chinese }
 		NOT = {
-			ROOT = c:CHI
+			c:CHI ?= this
 			has_variable = claim_china_var
 		}
 		is_revolutionary = no
