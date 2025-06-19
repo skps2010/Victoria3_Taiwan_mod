@@ -27,7 +27,7 @@
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -54,7 +54,7 @@ han_unclaim_china = {
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 }
 
@@ -86,6 +86,6 @@ claim_taiwan_native = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
