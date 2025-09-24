@@ -1,6 +1,6 @@
 ﻿han_claim_china = {
 	is_shown = {
-		any_primary_culture = { has_discrimination_trait = han_chinese }
+		any_primary_culture = { has_discrimination_trait = heritage_han }
 		NOT = {
 			c:CHI ?= this
 			has_variable = claim_china_var
