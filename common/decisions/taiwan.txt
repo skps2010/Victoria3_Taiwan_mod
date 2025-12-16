@@ -1,4 +1,4 @@
-﻿han_claim_china = {
+﻿REPLACE_OR_CREATE:han_claim_china = {
 	is_shown = {
 		any_primary_culture = { has_discrimination_trait = heritage_han }
 		NOT = {
@@ -31,7 +31,7 @@
 	}
 }
 
-han_unclaim_china = {
+REPLACE_OR_CREATE:han_unclaim_china = {
 	is_shown = {
 		has_variable = claim_china_var
 		NOT = {
@@ -58,7 +58,7 @@ han_unclaim_china = {
 	}
 }
 
-claim_taiwan_native = {
+REPLACE_OR_CREATE:claim_taiwan_native = {
 	is_shown = {
 		s:STATE_FORMOSA = {
 			any_scope_state = {

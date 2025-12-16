@@ -1,4 +1,4 @@
-﻿FRS = { # Taiwan
+﻿REPLACE_OR_CREATE:FRS = { # Taiwan
 	dynamic_country_name = {
 		name = dyn_c_bing
 		adjective = FRS_ADJ

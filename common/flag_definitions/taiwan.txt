@@ -1,4 +1,4 @@
-﻿FRS = { # FORMOSA
+﻿REPLACE_OR_CREATE:FRS = { # FORMOSA
 	flag_definition = {
 		coa = FRS_communist
 		priority = 1500
@@ -95,7 +95,7 @@
 	}
 }
 
-FRI = { # Formosan indigenous peoples
+REPLACE_OR_CREATE:FRI = { # Formosan indigenous peoples
 	flag_definition = {
 		coa = FRI
 		priority = 1

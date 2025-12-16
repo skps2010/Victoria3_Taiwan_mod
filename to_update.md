@@ -4,7 +4,6 @@ game_folder='/Users/umi/Library/Application Support/Steam/steamapps/common/Victo
 diff gfx/map/map_object_data/generated_map_object_locators_port.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_port.txt"
 diff gfx/map/map_object_data/generated_map_object_locators_mine.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_mine.txt"
 diff gfx/map/map_object_data/generated_map_object_locators_wood.txt "$game_folder/gfx/map/map_object_data/generated_map_object_locators_wood.txt"
-diff gfx/map/map_object_data/static.txt "$game_folder/gfx/map/map_object_data/static.txt"
 diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_east_asia.txt"
 ```
 
@@ -27,12 +26,6 @@ diff common/history/pops/11_east_asia.txt "$game_folder/common/history/pops/11_e
                       position={ 6840.074707 0.000000 2056.493652 }
 ---
                       position={ 6837.329102 0.000000 2049.902344 }
-
-## gfx/map/map_object_data/static.txt
-### name="seagull_01" 
-6833.085938 0.000000 2044.983398 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
----
-6859.128906 0.000000 2043.496582 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
 
 ## common/history/pops/11_east_asia.txt
 ### s:STATE_FORMOSA
