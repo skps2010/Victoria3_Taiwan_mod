@@ -32,7 +32,7 @@ claim_china.1 = {
 	option = { # claim China
 		name = claim_china.1.a
 		ai_chance = {
-			base = 100
+			value = 100
 		}
 		IF = {
 			limit = { country_has_primary_culture = cu:han }
@@ -58,7 +58,7 @@ claim_china.1 = {
 		}
 		change_relations = { 
 			country = c:CHI
-			base = -30 
+			value = -30 
 		}
 		every_state = {
 			limit = {
@@ -91,7 +91,7 @@ claim_china.1 = {
 		name = claim_china.1.c
 		default_option = yes
 		ai_chance = {
-			base = 0
+			value = 0
 		}
 		remove_variable = claim_china_var
 	}
@@ -129,7 +129,7 @@ claim_china.2 = {
 	option = { # unclaim China
 		name = claim_china.2.a
 		ai_chance = {
-			base = 0
+			value = 0
 		}
 		IF = {
 			limit = { has_variable = had_primary_hakka }
@@ -155,7 +155,7 @@ claim_china.2 = {
 		}
 		change_relations = { 
 			country = c:CHI
-			base = 30 
+			value = 30 
 		}
 		remove_variable = claim_china_var
 		remove_variable = unclaim_china_var
@@ -179,7 +179,7 @@ claim_china.2 = {
 		name = claim_china.2.c
 		default_option = yes
 		ai_chance = {
-			base = 100
+			value = 100
 		}
 		remove_variable = unclaim_china_var
 	}

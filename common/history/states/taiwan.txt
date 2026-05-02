@@ -3,7 +3,7 @@
 		create_state = {
 			country = c:FRI
 			owned_provinces = {
-				xBB27F6 x44797F x9A5066
+				x44797F x9A5066 x7070E0
 			}
 		}
 		add_homeland = cu:hakka
